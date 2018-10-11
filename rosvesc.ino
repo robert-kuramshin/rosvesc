@@ -1,4 +1,5 @@
-/* 
+/*  Robert Kuramshin
+ *
  *  rosserial Subscriber, Publisher + VESC
  *  Commands (Publish std_msgs/Byte to "/vesc"):
  *              (data = 1): Get Motor RPM (subscribe to "/rpm")
@@ -8,8 +9,6 @@
  *  EX: rostopic pub vesc std_msgs/Byte 3 --once
  *      rostopic echo /rpm
  */
-
-//#define USE_USBCON
 
 #include <ros.h>
 #include <std_msgs/Byte.h>
