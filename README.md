@@ -7,7 +7,7 @@ Make sure to install rosserial first:
 http://wiki.ros.org/rosserial
 
 To Run:  
-1. Start roscore in a terminal with `roscore`  
-2. Upload code to Arduno  
-3. Start rosserial serial node with `rosrun rosserial_python serial_node.py /dev/ttyUSB0` (replace USB0 if needed)  
+1. Upload code to Arduno  
+2. Start roscore in a terminal with `roscore`  
+3. Start rosserial serial node with `rosrun rosserial_python serial_node.py /dev/ttyUSB0` (replace ttyUSB0 if needed)  
 4. Follow instructions in rosvesc.ino for usage  
